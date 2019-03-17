@@ -1,0 +1,297 @@
+HTML, BODY {
+	background-color: white;
+	border: none;
+	font: normal normal normal 12px Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: black;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	letter-spacing: 0px;
+	padding: 0px;
+	line-height: 140%;
+	height: 100%;
+}
+SMALL {
+	font-size: 80%;
+}
+H1
+ {
+ 	color: black;
+ 	margin-bottom:4px;
+ 	padding-left:16px;
+ 	background-image:url(/imgs/pointer.gif);
+ 	background-position:left center;
+ 	background-repeat:no-repeat;
+ 	font-size:16px;
+}
+#gray
+ {
+ 	color:#838A90;
+}
+H3 {
+	
+	
+	margin: 5px;
+	font-size:14px;
+	color:#black;
+
+}
+H2 {
+	
+ 	color: black;
+ 	margin-bottom:4px;
+ 	padding-left:16px;
+ 	background-image:url(/imgs/pointer.gif);
+ 	background-position:left center;
+ 	background-repeat:no-repeat;
+ 	font-size:16px;
+}
+INPUT.inp {
+	border: solid 1px gray;
+	Background-Color:white;
+   FONT-FAMILY:   arial;
+}
+
+	
+SELECT {
+	border: solid 1px black;
+	Background-Color:white;
+}
+
+
+IMG {
+	border:none;
+}
+textarea {
+	border: solid 1px gray;
+	Background-Color:white;
+	width: 100%;
+ 	FONT-FAMILY:   arial;
+ 	display:block;
+}
+TD{
+	font-size:12px;
+	vertical-align:top;
+	line-height: 140%;
+}
+A {
+	COLOR: #426994;
+	text-decoration: underline;
+}
+A:visited {
+	COLOR: #426994;
+	text-decoration: underline;
+}
+A:hover {
+	COLOR: #426994;
+	text-decoration: none;
+}
+
+.menu A {
+	COLOR: #FF9200;
+	font-weight:bold;
+	font-size: 11px;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+.menu A:visited {
+	COLOR: #FF9200;
+	font-weight:bold;
+	text-decoration: none;
+	text-transform:uppercase
+}
+.menu A:hover {
+	COLOR: #FF9200;
+	font-weight:bold;
+	text-decoration: none;
+	text-transform:uppercase
+	
+}
+.menu {
+	color:white;
+	font-size:11px;
+	margin-top:16px;
+	height:35px;
+	margin-bottom:13px;
+	background-color:white;
+	FONT-FAMILY: Arial, verdana, sans-serif;
+}
+.menu TD {
+	padding-left:8px;
+	padding-right:8px;
+	vertical-align:top;
+	font-weight:bold;
+	text-decoration: none;
+	text-transform:uppercase
+}
+
+
+.content
+{
+	width:360px;
+	background-color:white;
+	padding:32px;
+	font-size:12px;
+}
+.footer
+	{
+	font-size:11px;
+}
+.footer TD
+{
+	vertical-align:top;
+	padding-top:16px;
+}
+.footer A
+	{
+	color: #FF9200;
+	text-decoration:underline;
+}
+.content IMG
+ {
+ 	margin:0px 8px 8px 0px;
+ 	font-size:12px;
+}
+.btn
+{
+	color:white;
+	background-color:#86AE3E;
+	font-weight:bold;
+	font-size:12px;
+	border:1px solid #86AE3E;
+}
+
+.content A {
+	COLOR: #7090A0;
+	text-decoration: underline;
+	font-weight:bold;
+}
+.content A:visited {
+	COLOR: #7090A0;
+	text-decoration: underline;
+	font-weight:bold;
+}
+.content A:hover {
+	COLOR: #7090A0;
+	text-decoration: none;
+	font-weight:bold;
+}
+P {
+	padding-left:16px;
+}
+
+.subsections
+	{
+		background-color:white;
+		border-right:1px solid #FF9200;
+}
+.subsections TD
+{
+	vertical-align:middle;
+	line-height: 140%;
+	padding:0px 0px 0px 11px;
+	color:white;
+}
+.subsections TD.vis
+{
+	
+	background-image:url(/imgs/pointer_sub.gif);
+	background-repeat: no-repeat;
+	background-position:center left;
+	background-color:#39659C;
+}
+
+.subsections TD.vis div
+{
+	padding:3px 11px 3px 0px;
+	margin-bottom:-1px;
+	background-image:url(/imgs/pointer_sub1.gif);
+	background-repeat: no-repeat;
+	background-position:center right;
+	
+}
+
+.subsections TD.novis div
+{
+	padding:4px 11px 4px 0px;
+	
+}
+
+* html .subsections TD.vis div
+{
+  background-image:url(/imgs/pointer_sub1.gif);
+  margin-bottom:0px;
+  padding:2px 11px 3px 0px;
+}
+
+* html .subsections TD.vis
+{
+  background-image:url(/imgs/pointer_sub.gif);
+}
+.btn {
+	font-weight:bold;
+}
+
+.catalog {
+}
+.catalog .item {
+	padding-right:20px;
+	margin-top:20px;
+	font-weight:bold;
+}
+.cat {
+	list-style:dotted;
+	
+}
+UL.cat LI A{
+	font-weight:bold;
+	font-size:14px;
+}
+UL.cat UL LI A{
+	font-weight:normal;
+	font-size:12px;
+	
+}
+
+
+UL {
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+TABLE.t1{
+	width: 80%;
+	border-top:4px solid #868E9C;
+	border-bottom:1px solid #868E9C;
+	font-size: 12px;
+}
+.t1 TH{
+	border-top:1px solid #868E9C;
+	padding: 6px;
+	vertical-align:top;
+	text-align: left;
+	color:gray;
+	font-weight:normal;
+	text-decoration:underline;
+	font-size: 12px;
+}
+.t1 TD{
+	border-top:1px solid #868E9C;
+	padding: 6px;
+	text-align: left;
+	vertical-align:top;
+	font-size: 12px;
+}
+
+.title h1{
+	
+	color: black;
+ 	margin-bottom:4px;
+ 	padding-left:0px;
+ 	background-image:none;
+ 	background-position:left center;
+ 	background-repeat:no-repeat;
+ 	font-size:16px;
+}	
